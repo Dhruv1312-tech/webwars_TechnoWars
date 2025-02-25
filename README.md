@@ -52,7 +52,6 @@ UI Frameworks: Bootstrap / Tailwind (if used)
 
 Clone the repository:
 
-git clone https://github.com/your-username/movie-website.git
 Navigate to the project folder:
 
 cd movie-website
