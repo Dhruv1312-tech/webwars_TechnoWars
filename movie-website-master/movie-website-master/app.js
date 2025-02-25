@@ -1,6 +1,31 @@
 const arrows = document.querySelectorAll(".arrow");
 const movieLists = document.querySelectorAll(".movie-list");
 
+    
+
+
+setTimeout(() => {
+window.location.href = "index.html"; 
+}, 5000);
+
+function playSoundAndRedirect() {
+  let audio = new Audio("intro.mp3"); 
+
+  audio.play();
+
+  
+  audio.onended = () => {
+      window.location.href = "index.html"; 
+  };
+
+  
+  setTimeout(() => {
+      window.location.href = "index.html";
+  }, 9000);
+}
+
+setTimeout(playSoundAndRedirect, 9000);
+
 arrows.forEach((arrow, i) => {
   const itemNumber = movieLists[i].querySelectorAll("img").length;
   let clickCounter = 0;
@@ -20,7 +45,6 @@ arrows.forEach((arrow, i) => {
   console.log(Math.floor(window.innerWidth / 270));
 });
 
-//TOGGLE
 
 const ball = document.querySelector(".toggle-ball");
 const items = document.querySelectorAll(
