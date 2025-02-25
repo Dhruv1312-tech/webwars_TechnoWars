@@ -4,7 +4,7 @@
 
 **Team Name -** TechnoWars
 
-**Team Leader: ** Priyanshu Singh 
+**Team Leader:** Priyanshu Singh 
 
 **Team Members:** Dhruv Goel , Pragati Nigam , Abhi , Parth Guar
 
@@ -50,24 +50,10 @@ UI Frameworks: Bootstrap / Tailwind (if used)
 
 **Setup Instructions**
 Clone the repository:
-
 git clone https://github.com/your-username/movie-website.git
-
 Navigate to the project folder:
-
 cd movie-website
-
 Install dependencies (if using npm/yarn):
-
 npm install  
-# or
-yarn install
-
-Run the project:
-
-npm start  
-# or
-yarn start
-
-Open the website in your browser at http://localhost:3000/ (if using React.js) or open index.html directly.
+Run the project
 
